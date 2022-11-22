@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 namespace cova.ui
 {
-    public class BaseButton : BaseView<BaseButton.ViewModel>
+    public class BaseButtonView : BaseView<BaseButtonView.ViewModel>
     {
         public class ViewModel : BaseViewModel
         {

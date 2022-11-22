@@ -4,7 +4,7 @@ using UniRx;
 namespace cova.ui.common
 {
     /// <summary>
-    /// ViewModel の基底クラス
+    /// Model の基底クラス
     /// </summary>
     public abstract class BaseModel<TView, TViewModel> : IDisposable
     where TViewModel: BaseViewModel

@@ -4,9 +4,9 @@ using UnityEngine.Assertions;
 
 namespace cova.ui
 {
-    public class CommonButton : BaseButton
+    public class CommonButtonView : BaseButtonView
     {
-        public new class ViewModel : BaseButton.ViewModel
+        public new class ViewModel : BaseButtonView.ViewModel
         {
             public readonly BaseTextView.ViewModel textViewModel = new BaseTextView.ViewModel();
 
